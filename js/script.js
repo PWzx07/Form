@@ -24,10 +24,10 @@ class Dono {
 
     getInfoText() {
         return `
-            Nome: ${this.nomeDono}, 
-            Idade: ${this.IdadeDono}, 
-            CPF: ${this.CpfDono}, 
-            Telefone: ${this.teleFone}, 
+            Nome: ${this.nomeDono}
+            Idade: ${this.IdadeDono}
+            CPF: ${this.CpfDono}
+            Telefone: ${this.teleFone}
             Email: ${this.emailDono}
         `;
     }
