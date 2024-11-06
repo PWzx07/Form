@@ -1,12 +1,12 @@
 # Ideias
 
-    Criar um formulario de dono e seu pet com crud
+    Criar um formulario de dono com crud
 
 
 # A completar 
 
-    Iniciar a fazer o javascript e css
+    Iniciar a fazer o javascript completo e css completo
 
 # adicionais 
 
-    adicionar reposividade e icones animados com modo escuro
+    adicionar reposividade
