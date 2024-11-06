@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link rel="stylesheet" href="./css/style.css">
-    <script src="./js/script.js"></script>
 </head>
 <body>
     <main>
@@ -14,26 +13,25 @@
             <article>
                 <h2>Informações do Dono:</h2>
                 <label>Nome: </label>
-                <input type="text" placeholder="Digite seu nome completo">
+                <input id="NameDono" type="text" placeholder="Digite seu nome completo">
                 <label>Idade: </label>
-                <input type="number" placeholder="Informe sua Idade">
+                <input id="yearDono" type="number" placeholder="Informe sua Idade">
                 <label>CPF: </label>
-                <input type="text" placeholder="Digite aqui seu CPF">
+                <input id="cpfDono" type="text" placeholder="Digite aqui seu CPF">
                 <label>Telefone de Contato: </label>
-                <input type="text" placeholder="Digite aqui seu Telefone">
+                <input id="telefone" type="text" placeholder="Digite aqui seu Telefone">
                 <label>Email: </label>
-                <input type="email" placeholder="Digite seu Email">
-            </article>
-            <article>
-                <h2>Informações do Animal: </h2>
-                <label>Nome</label>
-                <input type="text" placeholder="Digite aqui o nome do Animal">
-                <label>Raça do Pet</label>
-                <input type="text" placeholder="Digite aqui a raça do Animal">
-                <label>Idade do Animal</label>
-                <input type="number" placeholder="Qual a idade do Animal">
+                <input id="emailDono" type="email" placeholder="Digite seu Email">
             </article>
         </section>
+        <button id="Enviar">Enviar Dados</button>
+        <button id="ExcluirUltima">Excluir ultima linha</button>
+        
+        <section>
+            <h1> Informações Atualizadas</h1>
+            <ul class="returnList"></ul>
+        </section>
     </main>
+    <script src="./js/script.js"></script>
 </body>
 </html>
